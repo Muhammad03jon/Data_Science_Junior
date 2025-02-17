@@ -10,8 +10,8 @@ df = pd.read_csv("https://raw.githubusercontent.com/dataprofessor/data/master/pe
 with st.expander("Data"):
   st.write("X")
   X_raw = df.drop('species', axis=1)
-  st.dataFrame(X_raw)
+  st.dataframe(X_raw)
 
   st.write("y")
   y_raw = df.species
-  st.dataFrame(y_raw)
+  st.dataframe(y_raw)
