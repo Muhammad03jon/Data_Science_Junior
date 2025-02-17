@@ -118,4 +118,3 @@ st.dataframe(
 
 penguins_species = np.array(['Adelie', 'Chinstrap', 'Gentoo'])
 st.success(f"Predicted species: **{penguins_species[prediction][0]}**")
-)
