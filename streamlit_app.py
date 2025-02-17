@@ -72,3 +72,5 @@ with st.expander('Data preparation'):
   st.dataframe(input_row)
   st.write("**Encoded y**")
   st.write(y)
+
+
